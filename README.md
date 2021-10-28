@@ -11,3 +11,4 @@
   <li>
   <a href="http://kwolfe-personal.github.io/demo/ClickAndSwipeIn.html" target="_blank" >Click and swipe in animation demo</a>
   </li>
+  </ul>
