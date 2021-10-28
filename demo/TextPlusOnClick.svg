@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px"
+	 height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'ProximaNova-Regular';}
+	.st2{font-size:12px;}
+	.st3{fill:#C52126;}
+	.st4{fill:#FFFFFF;}
+	.st5{text-align: center;}
+	.invisible{visibility: hidden;}
+
+	#ClickTrigger {
+	visibility: visible;
+	cursor: pointer;
+	}
+
+	#ClickTrigger:active + .invisible{
+	visibility: visible;
+	}
+
+
+	@font-face {
+      font-family: ProximaNova-Regular;
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: ProximaNova-Semibold;
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_2_0.eot);
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_2_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_2_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_2_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_2_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_2_0.svg#wf) format("svg");
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: ProximaNova-Bold;
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: ProximaNova-Extrabold;
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+      src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+      font-weight: 900;
+      font-style: normal;
+    }
+
+</style>
+
+<g id="ClickTrigger">
+	<rect x="32.7" y="16.4" class="st0" width="34.5" height="14.9"/>
+	<text transform="matrix(1 0 0 1 33.9988 27.814)" class="visible st1 st2">HOLD</text>
+</g>
+<g id="Hidden" class="invisible">
+	<path class="st3" d="M66.5,86.1H33.4c-10.4,0-18.8-8.4-18.8-18.8v0c0-10.4,8.4-18.8,18.8-18.8h33.1c10.4,0,18.8,8.4,18.8,18.8v0
+		C85.4,77.6,76.9,86.1,66.5,86.1z"/>
+	<text transform="matrix(1 0 0 1 17.9788 72.2325)" class="st4 st1 st2 st5">Hey people!!</text>
+</g>
+</svg>
