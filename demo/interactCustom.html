@@ -16,13 +16,11 @@
 			controlIconsEnabled: false
 			});
 		},false);
-		var panZoom = svgPanZoom('#demo-hello', {
-          		zoomEnabled: true,
-          		controlIconsEnabled: false
-        	});
+
 		document.getElementById('reset').addEventListener('click', function(ev){
        			ev.preventDefault()
-       			svgPanZoom.resetZoom()
+       			svgPanZoom.resetZoom('#demo-hello')
+			});
       		});
 	</script>
 
