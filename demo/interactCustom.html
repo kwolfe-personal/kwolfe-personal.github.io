@@ -18,9 +18,10 @@
 		},false);
 
 		document.getElementById('reset').addEventListener('click', function(ev){
-       			ev.preventDefault()
-       			svgPanZoom.resetZoom('#demo-hello')
-      		});
+			svgPanZoom('#demo-hello', {
+				resetZoom: true,
+			});
+		},false);
 	</script>
 
   </body>
