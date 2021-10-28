@@ -11,7 +11,7 @@
 		 }
 	 </style>
 <a id="Pam1" class="kw-show" xlink:href="https://www.youtube.com/watch?v=mHONNcZbwDY" >
-	<animate attributeType="XML" xlink:href="#Pam2" attributeName="class" to="kw_show" begin="Pam1.click" />
+	
 	<g>
 		<g>
 			<path style="fill:#003349;" d="M113.6,94.05H49.13c-5.9,0-10.68-4.78-10.68-10.68V66.5c0-5.9,4.78-10.68,10.68-10.68h64.47
