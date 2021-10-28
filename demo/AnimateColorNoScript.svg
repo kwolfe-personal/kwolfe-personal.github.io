@@ -23,7 +23,7 @@
 	<path id="Click-Effect" class="st4" d="M66.5,86.1H33.4c-10.4,0-18.8-8.4-18.8-18.8v0c0-10.4,8.4-18.8,18.8-18.8h33.1c10.4,0,18.8,8.4,18.8,18.8v0
 		C85.4,77.6,76.9,86.1,66.5,86.1z"><animate attributeType="XML" attributeName="fill" id="go" from="#FFFFFF" to="#000000" begin="go.begin" dur="1s" fill="freeze"/></path>
 
-	<text id="txt-woah" transform="matrix(1 0 0 1 34.5125 72.2325)" class="st4 st1 st2">NICE!<animate attributeType="XML" attributeName="fill" id="go" from="#FFFFFF" to="#FBB818" begin="go.begin" dur="1s" fill="freeze"/></text>
+	<text id="txt-woah" transform="matrix(1 0 0 1 34.5125 72.2325)" class="st4 st1 st2">NICE!<animate attributeType="XML" attributeName="fill" id="go" from="#FFFFFF" to="#FFFFFF" begin="go.begin" dur="1s" fill="freeze"/></text>
 
 </g>
 
