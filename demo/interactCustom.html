@@ -16,6 +16,10 @@
 			controlIconsEnabled: false
 			});
 		},false);
+		var panZoom = svgPanZoom('#demo-tiger', {
+          		zoomEnabled: true,
+          		controlIconsEnabled: false
+        	});
 		document.getElementById('reset').addEventListener('click', function(ev){
        			ev.preventDefault()
        			svgPanZoom.resetZoom()
