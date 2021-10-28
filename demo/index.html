@@ -3,24 +3,19 @@
 	<head>
       <script src="..\myscripts\svg-pan-zoom.js"></script>
   </head>
-<body style="text-align:center;">
+  <body>
+    <h1>Demo for svg-pan-zoom: SVG in HTML 'object' element</h1>
+    <object id="demo-hello" type="image/svg+xml" data="panZoom.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG</object>
 
-	<h1>Demo for SVG interactivity</h1>
-	<p>css embedded in svg as object</p>
-</br>
-
-
-	<object id="testimg" type="image/svg+xml" data="panZoom.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG>
-
-  <script>
-        // Don't use window.onLoad like this in production, because it can only listen to one function.
-				window.onload = function() {
-          svgPanZoom('#testimg', {
-            zoomEnabled: true,
-            controlIconsEnabled: true
-          });
-        };
+    <script>
+      // Don't use window.onLoad like this in production, because it can only listen to one function.
+      window.onload = function() {
+        svgPanZoom('#demo-hello', {
+          zoomEnabled: true,
+          controlIconsEnabled: true
+        });
+      };
     </script>
 
-</body>
+  </body>
 </html>
