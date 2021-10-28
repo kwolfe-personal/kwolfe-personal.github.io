@@ -11,7 +11,7 @@
 		 }
 	 </style>
 <g id="Pam1" class="kw-show">
-	<set attributeType="XML" xlink:href="#Pam2" attributeName="class" to="kw_show" begin="Pam1.mouseover" />
+	<set attributeType="XML" xlink:href="#Pam2" attributeName="class" to="kw_show" begin="Pam1.click" />
 	<g>
 		<path style="fill:#003349;" d="M113.6,94.05H49.13c-5.9,0-10.68-4.78-10.68-10.68V66.5c0-5.9,4.78-10.68,10.68-10.68h64.47
 			c5.9,0,10.68,4.78,10.68,10.68v16.88C124.28,89.27,119.5,94.05,113.6,94.05z"/>
