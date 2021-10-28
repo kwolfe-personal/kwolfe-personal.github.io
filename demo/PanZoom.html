@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <script src="C:\Users\keith.wolfe\OneDrive - Sage Software, Inc\Desktop\SVGDemo\myscripts"></script>
+  </head>
+<body style="text-align:center;">
+
+	<h1>Demo for SVG interactivity</h1>
+	<p>css embedded in svg as object</p>
+</br>
+
+
+	<object id="testimg" type="image/svg+xml" data="panZoom.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG>
+
+  <script>
+        // Don't use window.onLoad like this in production, because it can only listen to one function.
+				window.onload = function() {
+          svgPanZoom('#testimg', {
+            zoomEnabled: true,
+            controlIconsEnabled: true
+          });
+        };
+    </script>
+
+</body>
+</html>
