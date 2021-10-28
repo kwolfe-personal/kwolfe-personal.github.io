@@ -11,7 +11,7 @@
 		 }
 	 </style>
 <g id="Pam1" class="kw-show">
-	<animate attributeType="XML" xlink:href="#Pam2" attributeName="class" to="kw_show" begin="Pam1.mouseover" />
+	<set attributeType="XML" xlink:href="#Pam2" attributeName="class" to="kw_show" begin="Pam1.mouseover" />
 	<g>
 		<path style="fill:#003349;" d="M113.6,94.05H49.13c-5.9,0-10.68-4.78-10.68-10.68V66.5c0-5.9,4.78-10.68,10.68-10.68h64.47
 			c5.9,0,10.68,4.78,10.68,10.68v16.88C124.28,89.27,119.5,94.05,113.6,94.05z"/>
@@ -19,13 +19,13 @@
 	<text transform="matrix(1 0 0 1 49.2971 79.0386)" style="fill:#FFFFFF; font-family:'OpenSans-Bold'; font-size:12px;">Hello Pam!</text>
 </g>
 <g id="Pam2" class="kw-hide">
-	<animate attributeType="XML" xlink:href="#Pam3" attributeName="class" to="kw_show" begin="Pam2.mouseover" />
+	<set attributeType="XML" xlink:href="#Pam3" attributeName="class" to="kw_show" begin="Pam2.mouseover" />
 	<path style="fill:#4971B8;" d="M219.37,155.07H154.9c-5.9,0-10.68-4.78-10.68-10.68v-16.88c0-5.9,4.78-10.68,10.68-10.68h64.47
 		c5.9,0,10.68,4.78,10.68,10.68v16.88C230.04,150.29,225.26,155.07,219.37,155.07z"/>
 	<text transform="matrix(1 0 0 1 155.062 139.3414)" style="fill:#FFFFFF; font-family:'OpenSans-Bold'; font-size:12px;">Hello Pam!</text>
 </g>
 <g id="Pam3" class="kw-hide">
-	<animate attributeType="XML" xlink:href="#Pam4" attributeName="class" to="kw_show" begin="Pam3.mouseover" />
+	<set attributeType="XML" xlink:href="#Pam4" attributeName="class" to="kw_show" begin="Pam3.mouseover" />
 	<path style="fill:#83A1CB;" d="M334.24,213.23h-64.47c-5.9,0-10.68-4.78-10.68-10.68v-16.88c0-5.9,4.78-10.68,10.68-10.68h64.47
 		c5.9,0,10.68,4.78,10.68,10.68v16.88C344.91,208.45,340.13,213.23,334.24,213.23z"/>
 	<text transform="matrix(1 0 0 1 269.9321 197.4937)" style="fill:#FFFFFF; font-family:'OpenSans-Bold'; font-size:12px;">Hello Pam!</text>
