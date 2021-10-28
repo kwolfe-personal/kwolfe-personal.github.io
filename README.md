@@ -1,1 +1,2 @@
-<a href="http://kwolfe-personal.github.io/demo/index.html">SVG Demo</a>
+<a href="http://kwolfe-personal.github.io/demo/index.html">SVG demo</a>
+<a href="http://kwolfe-personal.github.io/demo/ClickAndHold.html">Click and hold animation demo</a>
