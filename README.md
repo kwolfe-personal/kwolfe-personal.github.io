@@ -1,1 +1,1 @@
-<a href="http://kwolfe-personal.github.io/demo/index.html" target="_blank" rel="nofollow">SVG Demo</a>
+<a href="http://kwolfe-personal.github.io/demo/index.html" target="_top" rel="nofollow">SVG Demo</a>
