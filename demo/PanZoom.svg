@@ -12,7 +12,8 @@
 	.st6{fill:#A8C1E4;}
 
 	<!-- Here are the webfonts so OpenSans works. See https://confluence.corp.netsuite.com/display/DOC/Embed+Web+Fonts for details. -->
-
+	.fade{opacity:1;}
+	.fade:hover{opacity:0.7;}
 @font-face {
 	font-family: 'OpenSans';
 	font-style: normal;
@@ -86,7 +87,7 @@
 }
 
 </style>
-<a id="Pam1" xlink:href="https://www.youtube.com/watch?v=62XB9IbMnxQ" target="_blank">
+<a id="Pam1" class="fade" xlink:href="https://www.youtube.com/watch?v=62XB9IbMnxQ" target="_blank">
 	<g>
 		<g>
 			<path class="st0" d="M113.6,94.05H49.13c-5.9,0-10.68-4.78-10.68-10.68V66.5c0-5.9,4.78-10.68,10.68-10.68h64.47
@@ -95,21 +96,21 @@
 		<text transform="matrix(1 0 0 1 43.9519 79.0386)" class="st1 st2 st3">Hello Pam!</text>
 	</g>
 </a>
-<a id="Pam2" xlink:href="https://www.youtube.com/watch?v=be12BC5pQLE" target="_blank">
+<a id="Pam2" class="fade" xlink:href="https://www.youtube.com/watch?v=be12BC5pQLE" target="_blank">
 	<g>
 		<path class="st4" d="M219.37,155.07H154.9c-5.9,0-10.68-4.78-10.68-10.68v-16.88c0-5.9,4.78-10.68,10.68-10.68h64.47
 			c5.9,0,10.68,4.78,10.68,10.68v16.88C230.04,150.29,225.26,155.07,219.37,155.07z"/>
 		<text transform="matrix(1 0 0 1 149.7167 139.3414)" class="st1 st2 st3">Hey Tracy!</text>
 	</g>
 </a>
-<a id="Pam3" xlink:href="https://www.youtube.com/watch?v=StTqXEQ2l-Y" target="_blank">
+<a id="Pam3" class="fade" xlink:href="https://www.youtube.com/watch?v=StTqXEQ2l-Y" target="_blank">
 	<g>
 		<path class="st5" d="M334.24,213.23h-64.47c-5.9,0-10.68-4.78-10.68-10.68v-16.88c0-5.9,4.78-10.68,10.68-10.68h64.47
 			c5.9,0,10.68,4.78,10.68,10.68v16.88C344.91,208.45,340.13,213.23,334.24,213.23z"/>
 		<text transform="matrix(1 0 0 1 264.5869 197.4937)" class="st1 st2 st3">Yo Giselle!</text>
 	</g>
 </a>
-<a id="Pam4" xlink:href="https://www.youtube.com/watch?v=hpM8FjO4Vko" target="_blank">
+<a id="Pam4" class="fade" xlink:href="https://www.youtube.com/watch?v=hpM8FjO4Vko" target="_blank">
 	<g>
 		<path class="st6" d="M449.44,278.28h-64.47c-5.9,0-10.68-4.78-10.68-10.68v-16.88c0-5.9,4.78-10.68,10.68-10.68h64.47
 			c5.9,0,10.68,4.78,10.68,10.68v16.88C460.11,273.5,455.33,278.28,449.44,278.28z"/>
