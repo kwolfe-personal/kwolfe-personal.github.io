@@ -9,8 +9,8 @@
 	.st3{fill:#FFFFFF;}
 	.st4{fill:#4971B8;}
 	
-	.kw_show{visibility:show;}
-	.kw_hide{visibility:hide;}
+	.kw_show{visibility:visible;}
+	.kw_hide{visibility:hidden;}
 	
 </style>
 <!-- We wrap the trigger in an anchor with an href called #go. This can be any name, but it MUST have the #. -->
