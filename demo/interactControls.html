@@ -6,12 +6,8 @@
   <body>
     <h1>Demo for svg-pan-zoom: SVG in HTML 'object' element</h1>
     <object id="demo-hello" type="image/svg+xml" data="PanZoom.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG</object>
-    <div class="controls">
-      <button id="zoom-in">+</button>
-      <button id="zoom-out">-</button>
-      <button id="reset">Reset</button>
-    </div>
-    	<script type="text/javascript">
+
+	<script type="text/javascript">
 	  window.addEventListener("load", function() {
 		  svgPanZoom('#demo-hello', {
 		  zoomEnabled: true,
@@ -19,6 +15,6 @@
 		  });
 	  },false);
 	</script>
-
-  </body>
+	  
+   </body>
 </html>
