@@ -8,10 +8,14 @@
 	.st2{font-size:12px;}
 	.st3{fill:#FFFFFF;}
 	.st4{fill:#FFFFFF;}
+	
+	.kw_show{visibility:show;}
+	.kw_hide{visibility:hide;}
+	
 </style>
 <!-- We wrap the trigger in an anchor with an href called #go. This can be any name, but it MUST have the #. -->
 <a xlink:href="#go">
-	<g id="trigger">
+	<g>
 	<rect x="32.7" y="16.4" class="st0" width="34.5" height="14.9"/>
 	<text id="txt-click" transform="matrix(1 0 0 1 37.1843 27.814)" class="st1 st2">Click</text>
 	</g>
@@ -20,10 +24,10 @@
 <!-- We now add the <animate> element to the path, polygone, text element, shape, etc. Whatever we want to change. See https://www.youtube.com/watch?v=HcGvR1otGQA for more info-->
 
 <g>
-	<path id="Click-Effect" class="st4" d="M66.5,86.1H33.4c-10.4,0-18.8-8.4-18.8-18.8v0c0-10.4,8.4-18.8,18.8-18.8h33.1c10.4,0,18.8,8.4,18.8,18.8v0
-		C85.4,77.6,76.9,86.1,66.5,86.1z"><animate attributeType="XML" attributeName="fill" id="go" from="#FFFFFF" to="#003349" begin="go.begin" dur="1s" fill="freeze"/></path>
+	<path class="st4 show" d="M66.5,86.1H33.4c-10.4,0-18.8-8.4-18.8-18.8v0c0-10.4,8.4-18.8,18.8-18.8h33.1c10.4,0,18.8,8.4,18.8,18.8v0
+		C85.4,77.6,76.9,86.1,66.5,86.1z"><animate attributeType="XML" attributeName="class" id="go" from="kw-hide" to="kw-show" begin="go.begin" dur="1s" fill="freeze"/></path>
 
-	<text id="txt-woah" transform="matrix(1 0 0 1 34.5125 72.2325)" class="st4 st1 st2">NICE!<animate attributeType="XML" attributeName="fill" id="go" from="#FFFFFF" to="#FFFFFF" begin="go.begin" dur="1s" fill="freeze"/></text>
+	<text id="txt-woah" transform="matrix(1 0 0 1 34.5125 72.2325)" class="st4 st1 st2">NICE!<animate attributeType="XML" attributeName="class" id="go" from="st4 show" to="st4 hide" begin="go.begin" dur="1s" fill="freeze"/></text>
 
 </g>
 
