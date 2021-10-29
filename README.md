@@ -1,7 +1,10 @@
 <h1>Demos</h1>
 <ul>
   <li>
-  <a href="http://kwolfe-personal.github.io/demo/index.html" target="_blank" >SVG interactivity demo</a>
+  <a href="http://kwolfe-personal.github.io/demo/index.html" target="_blank" >SVG interactivity demo - mouse clicks</a>
+  </li>
+  <li>
+  <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >SVG interactivity demo - custom buttons</a>
   </li>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/ClickAndHold.html" target="_blank" >Animation demo - Click and hold</a>
@@ -11,8 +14,5 @@
   </li>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/ClickAndSwipeIn.html" target="_blank" >Animation demo - Click and swipe in</a>
-  </li>
-    <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >WIP</a>
   </li>
   </ul>
