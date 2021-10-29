@@ -16,10 +16,9 @@
 			controlIconsEnabled: false
 			});
 		},false);
-		
-		document.getElementById('reset').addEventListener('click', function(ev){
-          		panZoom.resetZoom('#demo-hello')
-        	});
+		window.addEventListener("reset", function() {
+			panZoom.resetZoom('#demo-hello')
+		},false);
 	</script>
 
   </body>
