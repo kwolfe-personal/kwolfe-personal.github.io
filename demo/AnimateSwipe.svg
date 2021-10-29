@@ -20,7 +20,7 @@
 </a>
 
 <g id="Hidden">
-	<polygon class="st3" points="67.7,121.6 48.4,102.2 29.1,121.6 40.1,121.6 40.1,146.3 55.6,146.3 55.6,121.6 	"><animate attributeType="XML" attributeName="points" id="go" from="67.7,121.6 48.4,102.2 29.1,121.6 40.1,121.6 40.1,146.3 55.6,146.3 55.6,121.6 	" to="67.7,61.6 48.4,42.2 29.1,61.6 40.1,61.6 40.1,86.3 55.6,86.3 55.6,61.6 	" begin="go.begin" dur=".5s" fill="freeze"/></polygon>
-	<text x="38.0" y="117.0547" class="st6 st1 st5">THIS END UP<animate attributeType="XML" attributeName="y" id="go" from="117.0547" to="57.0547" begin="go.begin" dur=".5s" fill="freeze"/></text>
+	<polygon class="st3" points="67.7,121.6 48.4,102.2 29.1,121.6 40.1,121.6 40.1,146.3 55.6,146.3 55.6,121.6 	"><animate attributeType="XML" attributeName="points" id="go" from="67.7,121.6 48.4,102.2 29.1,121.6 40.1,121.6 40.1,146.3 55.6,146.3 55.6,121.6 	" to="67.7,61.6 48.4,42.2 29.1,61.6 40.1,61.6 40.1,86.3 55.6,86.3 55.6,61.6 	" begin="go.begin" dur="0.5s" fill="freeze"/></polygon>
+	<text x="38.0" y="117.0547" class="st6 st1 st5">THIS END UP<animate attributeType="XML" attributeName="y" id="go" from="117.0547" to="57.0547" begin="go.begin" dur="0.5s" fill="freeze"/></text>
 </g>
 </svg>
