@@ -7,6 +7,9 @@
   <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >SVG interactivity demo - custom buttons</a>
   </li>
   <li>
+  <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >SVG interactivity demo - controller</a>
+  </li>
+  <li>
   <a href="http://kwolfe-personal.github.io/demo/ClickAndHold.html" target="_blank" >Animation demo - Click and hold</a>
   </li>
   <li>
