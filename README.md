@@ -12,4 +12,7 @@
   <li>
   <a href="http://kwolfe-personal.github.io/demo/ClickAndSwipeIn.html" target="_blank" >Animation demo - Click and swipe in</a>
   </li>
+    <li>
+  <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >WIP</a>
+  </li>
   </ul>
