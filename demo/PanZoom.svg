@@ -3,6 +3,7 @@
 <svg version="1.1" id="Buttons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="513.57px" height="323px" viewBox="0 0 513.57 323" style="enable-background:new 0 0 513.57 323;" xml:space="preserve">
 <style type="text/css">
+<!-- Adobe Illustrator translates all styles. -->
 	.st0{fill:#003349;}
 	.st1{fill:#FFFFFF;}
 	.st2{font-family:'OpenSans-Bold';}
@@ -11,9 +12,11 @@
 	.st5{fill:#83A1CB;}
 	.st6{fill:#A8C1E4;}
 
-	<!-- Here are the webfonts so OpenSans works. See https://confluence.corp.netsuite.com/display/DOC/Embed+Web+Fonts for details. -->
+<!-- Fade buttons on mouseover. -->
 	.fade{opacity:1;}
 	.fade:hover{opacity:0.7;}
+
+<!-- Here are the webfonts so OpenSans works. See https://confluence.corp.netsuite.com/display/DOC/Embed+Web+Fonts for details. -->
 @font-face {
 	font-family: 'OpenSans';
 	font-style: normal;
