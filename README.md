@@ -13,6 +13,7 @@
 </ul>
 <h2>Animation</h2>
 <ul>
+  <li>
     <a href="http://kwolfe-personal.github.io/demo/ClickAndHold.html" target="_blank" >Animation demo - Click and hold</a>
   </li>
   <li>
