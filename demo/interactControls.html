@@ -12,12 +12,12 @@
       <button id="reset">Reset</button>
     </div>
     	<script type="text/javascript">
-	      window.onload = function() {
-        var panZoom = svgPanZoom('#demo-hello', {
-          zoomEnabled: true,
-          controlIconsEnabled: true
-        });
-
+	  window.addEventListener("load", function() {
+		  svgPanZoom('#demo-hello', {
+		  zoomEnabled: true,
+		  controlIconsEnabled: true
+		  });
+	  },false);
 	</script>
 
   </body>
