@@ -10,15 +10,30 @@
       <input type="button" id="reset" value="Refresh5">
     </div>
     	<script type="text/javascript">
-		window.addEventListener("load", function() {
-			svgPanZoom('#demo-hello', {
-			zoomEnabled: true,
-			controlIconsEnabled: false
-			});
-		},false);
-		window.addEventListener("#reset").click(function() {
-		  document.getElementById("demo-hello").beginElement();
+	      window.onload = function() {
+		var panZoom = svgPanZoom('#demo-hello', {
+		  zoomEnabled: true,
+		  controlIconsEnabled: false
 		});
+
+		document.getElementById('zoom-in').addEventListener('click', function(ev){
+		  ev.preventDefault()
+
+		  panZoom.zoomIn()
+		});
+
+		document.getElementById('zoom-out').addEventListener('click', function(ev){
+		  ev.preventDefault()
+
+		  panZoom.zoomOut()
+		});
+
+		document.getElementById('reset').addEventListener('click', function(ev){
+		  ev.preventDefault()
+
+		  panZoom.resetZoom()
+		});
+	      };
 	</script>
 
   </body>
