@@ -10,6 +10,7 @@
 	.st4{font-size:12px;}
 	.st5{fill:#FFFFFF;}
 	.st6{fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:#0077C8;}
 	<!-- Fade buttons on mouseover. -->
 	.kw_fade{opacity:1;}
 	.kw_fade:hover{opacity:0.7;}
@@ -152,19 +153,19 @@
 </g>
 <g id="oe">
 	<g>
-		<path class="st2" d="M130.19,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
+		<path class="st7" d="M130.19,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
 	</g>
 	<text transform="matrix(1 0 0 1 44.2186 59.8252)" class="st5 st3 st4">Order Entry</text>
 </g>
 <g id="pick">
 	<g>
-		<path class="st2" d="M271.57,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
+		<path class="st7" d="M271.57,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
 	</g>
 	<text transform="matrix(1 0 0 1 207.7995 59.8252)" class="st5 st3 st4">Pick</text>
 </g>
 <g id="pack">
 	<g>
-		<path class="st2" d="M407.87,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
+		<path class="st7" d="M407.87,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
 	</g>
 	<text transform="matrix(1 0 0 1 342.2953 59.8252)" class="st5 st3 st4">Pack</text>
 </g>
@@ -297,14 +298,14 @@
 </g>
 <g id="ship">
 	<g>
-		<path class="st2" d="M540.45,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
+		<path class="st7" d="M540.45,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
 	</g>
 	<text transform="matrix(1 0 0 1 475.9292 59.8252)" class="st5 st3 st4">Ship</text>
 </g>
 <a id="invoice" class="kw_fade" xlink:href="https://www.intacct.com/ia/docs/en_US/help_action/Accounts_Receivable/Invoices/Tasks/create-invoice.htm" target="_blank">
 	<g>
 		<g>
-			<path class="st2" d="M668.06,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
+			<path class="st7" d="M668.06,79.88c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-47c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V79.88z"/>
 		</g>
 		<text transform="matrix(1 0 0 1 595.4457 59.8252)" class="st5 st3 st4">Invoice</text>
 	</g>
