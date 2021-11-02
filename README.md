@@ -2,7 +2,7 @@
 <h2>Pan/Zoom</h2>
 <ul>
   <li>
-  <a href="http://kwolfe-personal.github.io/demo/MousePanZoom.html" target="_blank" >Pan/Zoom with mouse</a>
+  <a href="http://kwolfe-personal.github.io/demo/interactMouse.html" target="_blank" >Pan/Zoom with mouse</a>
   </li>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >Pan/Zoom with custom buttons</a>
