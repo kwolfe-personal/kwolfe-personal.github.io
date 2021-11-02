@@ -158,8 +158,8 @@
 			c0.2-0.4,0.6-0.6,1-0.6c0.3,0,0.5,0.2,0.7,0.4c0.6,0.6,1.2,1.2,1.8,1.8C76.9,214.5,76.9,214.6,77,214.7z"/>
 	</g>
 </g>
-<g id="Trigger-Show" class="kw_cursor kw_fade">
-	<animate attributeType="XML" xlink:href="#Trigger-Hide" attributeName="class" to="kw_show kw_cursor" begin="Trigger-Show.click"/>
+<g id="trigger1" class="kw_cursor kw_fade">
+	<animate attributeType="XML" xlink:href="#trigger2" attributeName="class" to="kw_show kw_cursor" begin="trigger1.click"/>
 	<g id="oe">
 		<g>
 			<path class="st8" d="M138.3,101c0,3.3-2.7,6-6,6h-19.4c-3.3,0-6-2.7-6-6v-5.9c0,0,0,0,0,0h31.3c0,0,0,0,0,0V101z"/>
@@ -172,8 +172,8 @@
 		<text transform="matrix(1 0 0 1 114.6993 102.9856)" class="st3 st9 st10">more</text>
 	</g>
 </g>
-<g id="Trigger-Hide" class="kw_show kw_cursor">
-	<animate attributeType="XML" xlink:href="#Trigger-Hide" attributeName="class" to="kw_hide" begin="Trigger-Hide.click"/>
+<g id="trigger2" class="kw_hide kw_cursor">
+	<animate attributeType="XML" xlink:href="#trigger2" attributeName="class" to="kw_hide" begin="trigger2.click"/>
 	<g id="pick_00000091708837235308110660000006652127327449929089_">
 		<g>
 			<path class="st11" d="M290.9,273.3c0,3.3-2.7,6-6,6H112.7c-3.3,0-6-2.7-6-6V95.1c0,0,0,0,0,0h178.2c3.3,0,6,2.7,6,6V273.3z"/>
