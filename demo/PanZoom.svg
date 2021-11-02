@@ -91,7 +91,6 @@
 		src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2) format('woff2');
 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 	}
-
 </style>
 <g id="arrows">
 	<g>
@@ -138,7 +137,7 @@
 </g>
 <g id="converttoshipper">
 	<g>
-		<text transform="matrix(1 0 0 1 249.5896 292.7576)"><tspan x="0" y="0" class="st2 st3 st4">Convert Order</tspan><tspan x="11.66" y="14.4" class="st2 st3 st4">to Shipper</tspan></text>
+		<text transform="matrix(1 0 0 1 218.148 292.758)" class="st2 st3 st4">Convert Order to Shipper</text>
 	</g>
 	<g>
 		<path class="st2" d="M295.8,277.1c-111.5,0-186.89-24.84-192.5-32.85l0,0c5.35,7.64,91.51,27.01,192.5,27.01
