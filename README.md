@@ -14,10 +14,10 @@
 <h2>Animation</h2>
 <ul>
   <li>
-    <a href="http://kwolfe-personal.github.io/demo/ClickAndHold.html" target="_blank" >Click and hold - Appear</a>
+  <a href="http://kwolfe-personal.github.io/demo/ClickAndAppear.html" target="_blank" >Click - Appear</a>
   </li>
   <li>
-  <a href="http://kwolfe-personal.github.io/demo/ClickAndAppear.html" target="_blank" >Click - Appear</a>
+    <a href="http://kwolfe-personal.github.io/demo/ClickAndHold.html" target="_blank" >Click and hold to appear</a>
   </li>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/ClickAndSwipeIn.html" target="_blank" >Click - Swipe in</a>
