@@ -14,10 +14,10 @@
 <h2>Inline SVG</h2>
 <ul>
   <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with mouse (inline SVG)</a>
+  <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with mouse</a>
   </li>
   <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactCustomInline.html" target="_blank" >Pan/Zoom with custom buttons (inline SVG) (inline SVG)</a>
+  <a href="http://kwolfe-personal.github.io/demo/interactCustomInline.html" target="_blank" >Pan/Zoom with custom buttons</a>
   </li>  
 </ul>
 <h2>Animation</h2>
