@@ -11,7 +11,7 @@
   <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >Pan/Zoom with embedded controller</a>
   </li>
     <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with embedded controller</a>
+  <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with mouse (inline SVG)</a>
   </li>
 </ul>
 <h2>Animation</h2>
