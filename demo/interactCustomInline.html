@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <script src="..\myscripts\svg-pan-zoom.js"></script>
+  </head>
+  <body>
+    <h1>Demo for SVG with pan/zoom buttons</h1>
+        <svg id="demo-hello" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       width="677.17px" height="325.19px" viewBox="0 0 677.17 325.19" style="enable-background:new 0 0 677.17 325.19;"
+       xml:space="preserve">
+    <style type="text/css">
+      .st0{fill:none;stroke:#666666;stroke-width:6;stroke-miterlimit:10;}
+      .st1{fill:#666666;}
+      .st2{fill:#00A376;}
+      .st3{font-family:'OpenSans-Semibold';}
+      .st4{font-size:12px;}
+      .st5{fill:#004B87;}
+      .st6{fill:#FFFFFF;}
+      .st7{font-size:10px;}
+      .st8{fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+      .st9{fill:#FFB500;}
+
+      <!-- Fade buttons on mouseover. -->
+      .kwfade{opacity:1;}
+      .kwfade:hover{opacity:0.7;}
+
+      <!-- Here are the webfonts so OpenSans works. See https://confluence.corp.netsuite.com/display/DOC/Embed+Web+Fonts for details. -->
+      @font-face {
+        font-family: 'OpenSans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-Italic';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-SemiboldItalic';
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-BoldItalic';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-Extrabold';
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: local('Open Sans ExtraBold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+
+      @font-face {
+        font-family: 'OpenSans-ExtraboldItalic';
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <g id="arrows">
+      <g>
+        <g>
+          <line class="st0" x1="70.12" y1="146.83" x2="70.12" y2="83.4"/>
+          <g>
+            <polygon class="st1" points="77.6,144.64 70.12,157.6 62.64,144.64 				"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="st0" x1="347.8" y1="146.83" x2="347.8" y2="96.32"/>
+          <g>
+            <polygon class="st1" points="355.28,144.64 347.8,157.6 340.32,144.64 				"/>
+          </g>
+          <g>
+            <polygon class="st1" points="356.77,98.95 347.8,83.4 338.82,98.95 				"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="st0" x1="480.38" y1="146.83" x2="480.38" y2="96.32"/>
+          <g>
+            <polygon class="st1" points="487.86,144.64 480.38,157.6 472.9,144.64 				"/>
+          </g>
+          <g>
+            <polygon class="st1" points="489.35,98.95 480.38,83.4 471.4,98.95 				"/>
+          </g>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line class="st0" x1="607.99" y1="146.83" x2="607.99" y2="96.32"/>
+          <g>
+            <polygon class="st1" points="615.47,144.64 607.99,157.6 600.51,144.64 				"/>
+          </g>
+          <g>
+            <polygon class="st1" points="616.97,98.95 607.99,83.4 599.02,98.95 				"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="converttoshipper">
+      <g>
+        <text transform="matrix(1 0 0 1 218.148 292.758)" class="st2 st3 st4">Convert Order to Shipper</text>
+      </g>
+      <g>
+        <path class="st2" d="M295.8,277.1c-111.5,0-186.89-24.84-192.5-32.85l0,0c5.35,7.64,91.51,27.01,192.5,27.01
+          c78.14,0,116.86-10.18,145.01-21.74l2.41,4.53C415.32,266.05,377.53,277.1,295.8,277.1z"/>
+        <g>
+          <polygon class="st2" points="436.74,246.3 451.56,245.29 445.13,258.94 			"/>
+        </g>
+      </g>
+    </g>
+    <g id="converttoinvoice">
+      <text transform="matrix(1 0 0 1 509.2434 292.7578)"><tspan x="0" y="0" class="st2 st3 st4">Convert Shipper</tspan><tspan x="18.55" y="14.4" class="st2 st3 st4">to Invoice</tspan></text>
+      <g>
+        <path class="st2" d="M549.15,269.11c-17.58,0-34.3-10.32-40.8-19.6l0,0c6.2,8.84,23.72,15.65,40.8,15.65
+          c14.61,0,25.59-2.25,33.28-9.2l2.85,5.29C577.44,268.34,563.92,269.11,549.15,269.11z"/>
+      </g>
+      <g>
+        <polygon class="st2" points="577.87,253.5 592.69,252.49 586.27,266.14 		"/>
+      </g>
+    </g>
+    <g id="oe">
+      <g>
+        <path class="st5" d="M122.12,59.04c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-30.7c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59.04z"/>
+      </g>
+      <text transform="matrix(1 0 0 1 36.1496 46.7169)" class="st6 st3 st4">Order Entry</text>
+    </g>
+    <g id="pick">
+      <g>
+        <path class="st5" d="M263.5,59.04c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-30.7c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59.04z"/>
+      </g>
+      <text transform="matrix(1 0 0 1 199.7305 46.7169)" class="st6 st3 st4">Pick</text>
+    </g>
+    <g id="pack">
+      <g>
+        <path class="st5" d="M399.8,59.04c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-30.7c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59.04z"/>
+      </g>
+      <text transform="matrix(1 0 0 1 334.2263 46.7169)" class="st6 st3 st4">Pack</text>
+    </g>
+    <g id="picklist">
+      <g>
+        <text transform="matrix(1 0 0 1 189.3414 231.6076)" class="st1 st3 st7">Pick List</text>
+      </g>
+      <g>
+        <g>
+          <path class="st1" d="M227.49,178.33c-0.01-0.11-0.02-0.23-0.07-0.34c-0.05-0.11-0.11-0.21-0.19-0.29
+            c-0.01-0.01-0.01-0.03-0.03-0.04l0,0c0,0,0,0,0,0l-4.68-4.71c0,0,0,0,0,0c-0.09-0.09-0.21-0.17-0.33-0.22
+            c-0.13-0.05-0.26-0.08-0.4-0.08h-28.35c-0.57,0-1.03,0.46-1.03,1.03v41.58c0,0.57,0.46,1.03,1.03,1.03h33.04
+            c0.57,0,1.03-0.46,1.03-1.03v-36.87C227.5,178.37,227.49,178.35,227.49,178.33z"/>
+          <g>
+            <polygon class="st6" points="225.62,214.37 194.3,214.37 194.3,174.53 220.63,174.53 220.62,179.35 225.62,179.38 				"/>
+          </g>
+        </g>
+        <path class="st1" d="M221.35,198.18h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S221.88,198.18,221.35,198.18z"/>
+        <path class="st1" d="M221.35,203.59h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S221.88,203.59,221.35,203.59z"/>
+        <path class="st1" d="M221.35,187.29h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S221.88,187.29,221.35,187.29z"/>
+        <path class="st1" d="M208.54,181.47h-8.55c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h8.55c0.53,0,0.96,0.43,0.96,0.96
+          S209.07,181.47,208.54,181.47z"/>
+        <path class="st1" d="M221.35,192.7h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S221.88,192.7,221.35,192.7z"/>
+        <path class="st1" d="M221.35,208.71h-4.61c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h4.61c0.53,0,0.96,0.43,0.96,0.96
+          S221.88,208.71,221.35,208.71z"/>
+      </g>
+    </g>
+    <g id="invoiceprint">
+      <g>
+        <rect x="592.2" y="173.89" class="st8" width="31.81" height="40.04"/>
+        <line class="st8" x1="607.83" y1="179.92" x2="619.07" y2="179.92"/>
+        <line class="st8" x1="607.83" y1="184.31" x2="619.07" y2="184.31"/>
+        <line class="st8" x1="598.51" y1="194.46" x2="619.07" y2="194.46"/>
+        <line class="st8" x1="598.51" y1="199.67" x2="619.07" y2="199.67"/>
+        <line class="st8" x1="598.51" y1="204.6" x2="619.07" y2="204.6"/>
+        <path class="st1" d="M603.59,184.3c-0.26-0.37-0.65-0.69-1.18-0.96c-0.38-0.19-0.86-0.36-1.41-0.52
+          c-0.21-0.06-0.43-0.11-0.67-0.17c-0.38-0.08-0.69-0.17-0.97-0.26c-0.35-0.11-0.62-0.23-0.8-0.34c-0.33-0.21-0.49-0.52-0.49-0.93
+          c0-0.44,0.18-0.79,0.53-1.06c0.2-0.16,0.47-0.26,0.77-0.32c0.21-0.05,0.43-0.08,0.69-0.08c0.35,0,0.66,0.06,0.94,0.18
+          c0.21,0.08,0.4,0.19,0.56,0.33c0.4,0.34,0.6,0.74,0.6,1.21h0.01c0.04,0.41,0.4,0.74,0.86,0.74c0.45,0,0.81-0.33,0.86-0.74
+          c0-0.91-0.35-1.66-1.06-2.25c-0.5-0.41-1.11-0.67-1.82-0.79v-0.56c0-0.45-0.37-0.82-0.82-0.82s-0.82,0.37-0.82,0.82v0.53
+          c-0.77,0.1-1.43,0.36-1.96,0.8c-0.69,0.57-1.04,1.26-1.04,2.08c0,0.49,0.12,0.92,0.36,1.28c0.24,0.36,0.62,0.67,1.13,0.92
+          c0.39,0.2,0.9,0.38,1.51,0.54c0.18,0.04,0.36,0.09,0.55,0.13c0.42,0.09,0.78,0.19,1.08,0.3c0.31,0.11,0.56,0.23,0.74,0.36
+          c0.35,0.26,0.52,0.61,0.52,1.08c0,0.44-0.2,0.79-0.59,1.05c-0.19,0.13-0.42,0.23-0.68,0.29c-0.26,0.07-0.55,0.1-0.88,0.1
+          c-0.27,0-0.52-0.03-0.75-0.08c-0.37-0.08-0.69-0.21-0.95-0.42c-0.43-0.34-0.66-0.79-0.69-1.36c-0.04-0.41-0.4-0.74-0.86-0.74
+          s-0.81,0.33-0.86,0.74c0,0.59,0.17,1.14,0.52,1.65c0.35,0.51,0.83,0.9,1.45,1.19c0.42,0.19,0.88,0.31,1.38,0.37v0.5
+          c0,0.45,0.37,0.82,0.82,0.82s0.82-0.37,0.82-0.82v-0.52c0.74-0.11,1.38-0.35,1.9-0.74c0.71-0.54,1.07-1.26,1.07-2.15
+          C603.97,185.13,603.84,184.68,603.59,184.3z"/>
+      </g>
+      <g>
+        <text transform="matrix(1 0 0 1 591.8669 230.5906)" class="st1 st3 st7">Invoice</text>
+      </g>
+    </g>
+    <g id="packlist">
+      <g>
+        <text transform="matrix(1 0 0 1 324.524 231.2361)" class="st1 st3 st7">Pack List</text>
+      </g>
+      <g>
+        <g>
+          <path class="st1" d="M364.18,178.46c-0.01-0.11-0.02-0.23-0.07-0.34c-0.05-0.11-0.11-0.21-0.19-0.29
+            c-0.01-0.01-0.01-0.03-0.03-0.04l0,0c0,0,0,0,0,0l-4.68-4.71c0,0,0,0,0,0c-0.09-0.09-0.21-0.17-0.33-0.22
+            c-0.13-0.05-0.26-0.08-0.4-0.08h-28.35c-0.57,0-1.03,0.46-1.03,1.03v41.58c0,0.57,0.46,1.03,1.03,1.03h33.04
+            c0.57,0,1.03-0.46,1.03-1.03v-36.87C364.19,178.5,364.18,178.48,364.18,178.46z"/>
+          <g>
+            <polygon class="st6" points="362.31,214.5 330.99,214.5 330.99,174.66 357.31,174.66 357.31,179.48 362.31,179.51 				"/>
+          </g>
+        </g>
+        <path class="st1" d="M358.04,198.31h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S358.57,198.31,358.04,198.31z"/>
+        <path class="st1" d="M358.04,203.72h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S358.57,203.72,358.04,203.72z"/>
+        <path class="st1" d="M358.04,187.42h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S358.57,187.42,358.04,187.42z"/>
+        <path class="st1" d="M345.23,181.6h-8.55c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h8.55c0.53,0,0.96,0.43,0.96,0.96
+          S345.76,181.6,345.23,181.6z"/>
+        <path class="st1" d="M358.04,192.83h-21.36c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h21.36c0.53,0,0.96,0.43,0.96,0.96
+          S358.57,192.83,358.04,192.83z"/>
+        <path class="st1" d="M358.04,208.84h-4.61c-0.53,0-0.96-0.43-0.96-0.96s0.43-0.96,0.96-0.96h4.61c0.53,0,0.96,0.43,0.96,0.96
+          S358.57,208.84,358.04,208.84z"/>
+      </g>
+    </g>
+    <g id="shipper">
+      <g>
+        <g>
+          <path class="st1" d="M492.82,176.22c-0.01-0.09-0.02-0.19-0.06-0.27c-0.04-0.09-0.09-0.17-0.16-0.24
+            c-0.01-0.01-0.01-0.02-0.02-0.03l0,0c0,0,0,0,0,0l-3.78-3.81c0,0,0,0,0,0c-0.08-0.08-0.17-0.14-0.27-0.18
+            c-0.1-0.04-0.21-0.06-0.32-0.06h-22.93c-0.46,0-0.83,0.37-0.83,0.83v33.62c0,0.46,0.37,0.83,0.83,0.83H492
+            c0.46,0,0.83-0.37,0.83-0.83v-29.81C492.83,176.24,492.82,176.23,492.82,176.22z"/>
+          <g>
+            <polygon class="st6" points="491.31,205.35 465.98,205.35 465.98,173.14 487.27,173.14 487.26,177.04 491.31,177.06 				"/>
+          </g>
+        </g>
+        <path class="st1" d="M487.86,192.26h-17.27c-0.43,0-0.78-0.35-0.78-0.78s0.35-0.78,0.78-0.78h17.27c0.43,0,0.78,0.35,0.78,0.78
+          S488.28,192.26,487.86,192.26z"/>
+        <path class="st1" d="M487.86,183.45h-17.27c-0.43,0-0.78-0.35-0.78-0.78c0-0.43,0.35-0.78,0.78-0.78h17.27
+          c0.43,0,0.78,0.35,0.78,0.78C488.63,183.11,488.28,183.45,487.86,183.45z"/>
+        <path class="st1" d="M477.5,178.75h-6.92c-0.43,0-0.78-0.35-0.78-0.78c0-0.43,0.35-0.78,0.78-0.78h6.92
+          c0.43,0,0.78,0.35,0.78,0.78C478.28,178.41,477.93,178.75,477.5,178.75z"/>
+        <path class="st1" d="M487.86,187.83h-17.27c-0.43,0-0.78-0.35-0.78-0.78c0-0.43,0.35-0.78,0.78-0.78h17.27
+          c0.43,0,0.78,0.35,0.78,0.78C488.63,187.48,488.28,187.83,487.86,187.83z"/>
+      </g>
+      <g>
+        <text transform="matrix(1 0 0 1 460.5153 230.7183)"><tspan x="0" y="0" class="st1 st3 st7">Shipper/</tspan><tspan x="5.36" y="12" class="st1 st3 st7">Track/</tspan><tspan x="5.1" y="24" class="st1 st3 st7">Labels</tspan></text>
+      </g>
+      <g>
+        <path class="st1" d="M504.48,215.21h-26.7c-0.31,0-0.56-0.25-0.56-0.56V196.2c0-0.31,0.25-0.56,0.56-0.56h26.7
+          c0.31,0,0.56,0.25,0.56,0.56v18.45C505.04,214.95,504.79,215.21,504.48,215.21z M478.34,214.08h25.58v-17.32h-25.58V214.08z"/>
+        <g>
+          <rect x="478.34" y="196.76" class="st6" width="25.58" height="17.32"/>
+        </g>
+        <rect x="480.8" y="198.26" class="st1" width="1.13" height="14.38"/>
+        <rect x="485.6" y="198.26" class="st1" width="1.13" height="14.38"/>
+        <rect x="482.62" y="198.26" class="st1" width="2.13" height="14.38"/>
+        <rect x="491.95" y="198.26" class="st1" width="1.13" height="14.38"/>
+        <rect x="493.87" y="198.26" class="st1" width="1.13" height="14.38"/>
+        <rect x="497.67" y="198.26" class="st1" width="1.13" height="14.38"/>
+        <rect x="488.88" y="198.26" class="st1" width="2.23" height="14.38"/>
+        <rect x="499.66" y="198.26" class="st1" width="2.05" height="14.38"/>
+      </g>
+    </g>
+    <g id="so">
+      <text transform="matrix(1 0 0 1 41.9507 231.2844)" class="st1 st3 st7">Sales Order</text>
+      <g>
+        <rect x="54.11" y="174.58" class="st8" width="31.81" height="40.04"/>
+        <line class="st8" x1="69.75" y1="180.62" x2="80.99" y2="180.62"/>
+        <line class="st8" x1="69.75" y1="185" x2="80.99" y2="185"/>
+        <line class="st8" x1="60.42" y1="195.15" x2="80.99" y2="195.15"/>
+        <line class="st8" x1="60.42" y1="200.36" x2="80.99" y2="200.36"/>
+        <line class="st8" x1="60.42" y1="205.3" x2="80.99" y2="205.3"/>
+      </g>
+      <path class="st1" d="M60.8,184.6c0.11-0.11,0.21-0.2,0.31-0.29c1.62-1.61,3.23-3.23,4.84-4.85c0.31-0.31,0.67-0.46,1.11-0.33
+        c0.73,0.21,0.99,1.09,0.51,1.67c-0.04,0.05-0.09,0.1-0.13,0.14c-1.93,1.93-3.85,3.85-5.78,5.78c-0.57,0.57-1.14,0.57-1.72-0.01
+        c-0.88-0.88-1.76-1.76-2.64-2.64c-0.34-0.34-0.41-0.78-0.22-1.19c0.18-0.39,0.59-0.63,1.03-0.6c0.29,0.02,0.52,0.16,0.73,0.36
+        c0.58,0.59,1.17,1.17,1.76,1.76C60.65,184.47,60.72,184.53,60.8,184.6z"/>
+    </g>
+    <g id="ship">
+      <g>
+        <path class="st5" d="M532.38,59.04c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-30.7c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59.04z"/>
+      </g>
+      <text transform="matrix(1 0 0 1 467.8602 46.7169)" class="st6 st3 st4">Ship</text>
+    </g>
+    <a id="invoice" class="kwfade" xlink:href="https://www.intacct.com/ia/docs/en_US/help_action/Accounts_Receivable/Invoices/Tasks/create-invoice.htm" >
+      <g>
+        <g>
+          <path class="st5" d="M659.99,59.04c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-30.7c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59.04z"/>
+        </g>
+        <text transform="matrix(1 0 0 1 587.3766 46.7169)" class="st6 st3 st4">Invoice</text>
+        <g>
+          <g>
+            <g>
+              <path class="st9" d="M656.95,55.54c0.01,0.75-0.17,1.18-0.52,1.54c-0.56,0.57-1.12,1.13-1.69,1.69
+                c-0.7,0.68-1.8,0.71-2.51,0.08c-0.26-0.24-0.32-0.54-0.13-0.77c0.19-0.24,0.51-0.25,0.8-0.03c0.4,0.3,0.79,0.28,1.14-0.07
+                c0.53-0.52,1.05-1.05,1.58-1.57c0.25-0.25,0.35-0.53,0.24-0.87c-0.18-0.55-0.85-0.72-1.3-0.31c-0.31,0.29-0.61,0.59-0.9,0.9
+                c-0.11,0.11-0.2,0.13-0.35,0.09c-0.23-0.07-0.47-0.08-0.7-0.13c-0.07-0.01-0.15-0.05-0.19-0.1c-0.02-0.03,0.03-0.13,0.07-0.18
+                c0.47-0.48,0.93-0.98,1.43-1.42c0.58-0.51,1.26-0.59,1.96-0.27C656.58,54.44,656.93,55.02,656.95,55.54z"/>
+            </g>
+            <g>
+              <path class="st9" d="M650.9,61.84c-0.78-0.02-1.36-0.37-1.68-1.09c-0.32-0.72-0.21-1.42,0.33-2c0.57-0.61,1.16-1.19,1.76-1.77
+                c0.69-0.66,1.76-0.67,2.46-0.05c0.27,0.24,0.32,0.56,0.12,0.79c-0.19,0.22-0.51,0.23-0.78,0.02c-0.39-0.31-0.79-0.29-1.14,0.06
+                c-0.55,0.55-1.11,1.1-1.65,1.65c-0.27,0.28-0.29,0.67-0.09,0.98c0.19,0.29,0.56,0.44,0.88,0.32c0.14-0.05,0.28-0.15,0.4-0.25
+                c0.29-0.27,0.57-0.56,0.84-0.85c0.11-0.11,0.2-0.13,0.35-0.08c0.24,0.07,0.48,0.09,0.73,0.13c0.06,0.01,0.14,0.05,0.16,0.09
+                c0.02,0.03-0.02,0.12-0.05,0.16c-0.51,0.51-1,1.02-1.53,1.5C651.71,61.74,651.32,61.85,650.9,61.84z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </a>
+   
+      <script type="text/javascript">
+              window.onload = function() {
+          var panZoom = svgPanZoom('#demo-hello', {
+            zoomEnabled: true,
+            controlIconsEnabled: false
+          });
+          document.getElementById('zoom-in').addEventListener('click', function(ev){
+            ev.preventDefault()
+
+            panZoom.zoomIn()
+          });
+
+          document.getElementById('zoom-out').addEventListener('click', function(ev){
+            ev.preventDefault()
+
+            panZoom.zoomOut()
+          });
+
+          document.getElementById('reset').addEventListener('click', function(ev){
+            ev.preventDefault()
+            panZoom.resetZoom()
+            panZoom.resetPan()
+          });
+              };
+      </script>
+          
+          
+    </svg>
+    <div class="controls">
+      <button id="zoom-in">+</button>
+      <button id="zoom-out">-</button>
+      <button id="reset">Reset</button>
+    </div>
+    	
+
+  </body>
+</html>
