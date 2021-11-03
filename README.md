@@ -1,24 +1,15 @@
 <h1>SVG Demos</h1>
-<h2>As Object</h2>
-<ul>
-  <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactMouse.html" target="_blank" >Pan/Zoom with mouse</a>
-  </li>
-  <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >Pan/Zoom with custom buttons</a>
-  </li>
-  <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >Pan/Zoom with embedded controller</a>
-  </li>
-</ul>
-<h2>Inline SVG</h2>
+<h2>Pan/Zoom</h2>
 <ul>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with mouse</a>
   </li>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactCustomInline.html" target="_blank" >Pan/Zoom with custom buttons</a>
-  </li>  
+  </li>
+  <li>
+  <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >Pan/Zoom with embedded controller</a>
+  </li>
 </ul>
 <h2>Animation</h2>
 <ul>
