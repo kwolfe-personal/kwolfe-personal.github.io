@@ -10,6 +10,9 @@
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >Pan/Zoom with embedded controller</a>
   </li>
+    <li>
+  <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with embedded controller</a>
+  </li>
 </ul>
 <h2>Animation</h2>
 <ul>
