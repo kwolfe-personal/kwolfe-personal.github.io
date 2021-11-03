@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1>Demo for SVG with pan/zoom mouse controls only (inline SVG)</h1>
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg id="demo-hello" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
        width="677.17px" height="325.19px" viewBox="0 0 677.17 325.19" style="enable-background:new 0 0 677.17 325.19;"
        xml:space="preserve">
     <style type="text/css">
@@ -347,7 +347,6 @@
         </g>
       </g>
     </a>
-    </svg>
 	<script type="text/javascript">
           window.addEventListener("load", function() {
             svgPanZoom('#demo-hello', {
@@ -355,6 +354,9 @@
             controlIconsEnabled: false
             });
           },false);
-	</script>  
+	</script> 
+	    
+    </svg>
+ 
   </body>
 </html>
