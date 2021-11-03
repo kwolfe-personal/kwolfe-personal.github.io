@@ -1,5 +1,5 @@
 <h1>SVG Demos</h1>
-<h2>Pan/Zoom</h2>
+<h2>As Object</h2>
 <ul>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactMouse.html" target="_blank" >Pan/Zoom with mouse</a>
@@ -10,6 +10,9 @@
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >Pan/Zoom with embedded controller</a>
   </li>
+</ul>
+<h2>Inline SVG</h2>
+<ul>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with mouse (inline SVG)</a>
   </li>
