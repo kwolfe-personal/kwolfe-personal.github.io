@@ -5,7 +5,7 @@
   <a href="http://kwolfe-personal.github.io/demo/interactMouseInline.html" target="_blank" >Pan/Zoom with mouse</a>
   </li>
   <li>
-  <a href="http://kwolfe-personal.github.io/demo/interactCustomInline.html" target="_blank" >Pan/Zoom with custom buttons</a>
+  <a href="http://kwolfe-personal.github.io/demo/interactCustom.html" target="_blank" >Pan/Zoom with custom buttons</a>
   </li>
   <li>
   <a href="http://kwolfe-personal.github.io/demo/interactControls.html" target="_blank" >Pan/Zoom with embedded controller</a>
