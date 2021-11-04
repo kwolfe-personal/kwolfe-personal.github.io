@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <script src="..\myscripts\svg-pan-zoom.js"></script>
+  </head>
+  <body>
+    <h1>Demo for SVG with pan/zoom mouse controls only - As Object</h1>
+	</br>
+	</br>
+		<img
+    <img id="demo-hello" src="PanZoom.svg" alt="svg diagram" style="width: 500px; height: 500px; border:1px solid black; "/>
+	<script type="text/javascript">
+		window.addEventListener("load", function() {
+			svgPanZoom('#demo-hello', {
+			zoomEnabled: true,
+			controlIconsEnabled: false
+			});
+		},false);
+	</script>
+
+  </body>
+</html>
