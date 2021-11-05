@@ -340,14 +340,5 @@
 		</g>
 	</g>
 </a>
-
-<script type="text/javascript"><![CDATA[
-	window.addEventListener("load", function() {
-		svgPanZoom('#SVG-testing', {
-			zoomEnabled: true,
-			controlIconsEnabled: false
-		});
-	},false);
-]]></script>
-
+<script src="..\myscripts\callsvg.js"></script>
 </svg>
