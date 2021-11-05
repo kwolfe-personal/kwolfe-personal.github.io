@@ -340,5 +340,14 @@
 		</g>
 	</g>
 </a>
-<script src="..\myscripts\callsvg.js"></script>
+<script type="text/javascript">
+	window.addEventListener("load", function() {
+		var svgObject = document.getElementById('svg-object').contentDocument;
+    		var svg = svgObject.getElementById('SVG-testing');
+		svgPanZoom('#SVG-testing', {
+			zoomEnabled: true,
+			controlIconsEnabled: false
+		});
+	},false);
+</script>
 </svg>
