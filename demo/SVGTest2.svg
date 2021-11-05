@@ -342,12 +342,10 @@
 </a>
 <script type="text/javascript">
 <![CDATA[
-	window.addEventListener("load", function() {
-		svgPanZoom('#SVG-testing', {
-			zoomEnabled: true,
-			controlIconsEnabled: false
-		});
-	},false);
+	svgPanZoom('#SVG-testing', {
+		zoomEnabled: true,
+		controlIconsEnabled: false
+	});
 ]]>
 </script>
 </svg>
