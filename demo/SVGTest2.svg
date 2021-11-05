@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 677.2 325.2" style="enable-background:new 0 0 677.2 325.2;" xml:space="preserve">
+
+	 <style type="text/css">
+	 	.st0{fill:none;stroke:#666666;stroke-width:6;stroke-miterlimit:10;}
+	 	.st1{fill:#666666;}
+	 	.st2{fill:#00A376;}
+	 	.st3{font-family:'OpenSans-Semibold';}
+	 	.st4{font-size:12px;}
+	 	.st5{fill:#004B87;}
+	 	.st6{fill:#FFFFFF;}
+	 	.st7{font-size:10px;}
+	 	.st8{fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	 	.st9{fill:#FFB500;}
+
+	 	<!-- Fade buttons on mouseover. -->
+	 	.kwfade{opacity:1;}
+	 	.kwfade:hover{opacity:0.7;}
+
+	 	<!-- Here are the webfonts so OpenSans works. See https://confluence.corp.netsuite.com/display/DOC/Embed+Web+Fonts for details. -->
+	 	@font-face {
+	 		font-family: 'OpenSans';
+	 		font-style: normal;
+	 		font-weight: 400;
+	 		font-display: swap;
+	 		src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-Italic';
+	 		font-style: italic;
+	 		font-weight: 400;
+	 		font-display: swap;
+	 		src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-SemiBold';
+	 		font-style: normal;
+	 		font-weight: 600;
+	 		font-display: swap;
+	 		src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-SemiboldItalic';
+	 		font-style: italic;
+	 		font-weight: 600;
+	 		font-display: swap;
+	 		src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-Bold';
+	 		font-style: normal;
+	 		font-weight: 700;
+	 		font-display: swap;
+	 		src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-BoldItalic';
+	 		font-style: italic;
+	 		font-weight: 700;
+	 		font-display: swap;
+	 		src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-Extrabold';
+	 		font-style: normal;
+	 		font-weight: 800;
+	 		font-display: swap;
+	 		src: local('Open Sans ExtraBold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+
+	 	@font-face {
+	 		font-family: 'OpenSans-ExtraboldItalic';
+	 		font-style: italic;
+	 		font-weight: 800;
+	 		font-display: swap;
+	 		src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2) format('woff2');
+	 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	 	}
+	 </style>
+
+<g id="arrows">
+	<g>
+		<g>
+			<line style="fill:none;stroke:#666666;stroke-width:6;stroke-miterlimit:10;" x1="70.1" y1="146.8" x2="70.1" y2="83.4"/>
+			<g>
+				<polygon style="fill:#666666;" points="77.6,144.6 70.1,157.6 62.6,144.6 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line style="fill:none;stroke:#666666;stroke-width:6;stroke-miterlimit:10;" x1="347.8" y1="146.8" x2="347.8" y2="96.3"/>
+			<g>
+				<polygon style="fill:#666666;" points="355.3,144.6 347.8,157.6 340.3,144.6 				"/>
+			</g>
+			<g>
+				<polygon style="fill:#666666;" points="356.8,98.9 347.8,83.4 338.8,98.9 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line style="fill:none;stroke:#666666;stroke-width:6;stroke-miterlimit:10;" x1="480.4" y1="146.8" x2="480.4" y2="96.3"/>
+			<g>
+				<polygon style="fill:#666666;" points="487.9,144.6 480.4,157.6 472.9,144.6 				"/>
+			</g>
+			<g>
+				<polygon style="fill:#666666;" points="489.4,98.9 480.4,83.4 471.4,98.9 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line style="fill:none;stroke:#666666;stroke-width:6;stroke-miterlimit:10;" x1="608" y1="146.8" x2="608" y2="96.3"/>
+			<g>
+				<polygon style="fill:#666666;" points="615.5,144.6 608,157.6 600.5,144.6 				"/>
+			</g>
+			<g>
+				<polygon style="fill:#666666;" points="617,98.9 608,83.4 599,98.9 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="converttoshipper">
+
+		<g onload=" &lt;script type=&quot;text/javascript&quot;&gt;           window.addEventListener(&quot;load&quot;, function() {             svgPanZoom('#demo-hello', {             zoomEnabled: true,             controlIconsEnabled: false             });           },false);  &lt;/script&gt; ">
+		<text transform="matrix(1 0 0 1 218.1482 292.7576)" style="fill:#00A376; font-family:'OpenSans-Semibold'; font-size:12px;">Convert Order to Shipper</text>
+	</g>
+	<g>
+		<path style="fill:#00A376;" d="M295.8,277.1c-111.5,0-186.9-24.8-192.5-32.9l0,0c5.3,7.6,91.5,27,192.5,27
+			c78.1,0,116.9-10.2,145-21.7l2.4,4.5C415.3,266,377.5,277.1,295.8,277.1z"/>
+		<g>
+			<polygon style="fill:#00A376;" points="436.7,246.3 451.6,245.3 445.1,258.9 			"/>
+		</g>
+	</g>
+</g>
+<g id="converttoinvoice">
+	<text transform="matrix(1 0 0 1 509.2434 292.7578)" style="fill:#00A376; font-family:'OpenSans-Semibold'; font-size:12px;">Convert Shipper</text>
+	<text transform="matrix(1 0 0 1 527.7934 307.1578)" style="fill:#00A376; font-family:'OpenSans-Semibold'; font-size:12px;">to Invoice</text>
+	<g>
+		<path style="fill:#00A376;" d="M549.2,269.1c-17.6,0-34.3-10.3-40.8-19.6l0,0c6.2,8.8,23.7,15.6,40.8,15.6
+			c14.6,0,25.6-2.2,33.3-9.2l2.8,5.3C577.4,268.3,563.9,269.1,549.2,269.1z"/>
+	</g>
+	<g>
+		<polygon style="fill:#00A376;" points="577.9,253.5 592.7,252.5 586.3,266.1 		"/>
+	</g>
+</g>
+<g id="oe">
+	<g>
+		<path style="fill:#004B87;" d="M122.1,59c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6V28.3c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 36.1496 46.7169)" style="fill:#FFFFFF; font-family:'OpenSans-Semibold'; font-size:12px;">Order Entry</text>
+</g>
+<g id="pick">
+	<g>
+		<path style="fill:#004B87;" d="M263.5,59c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6V28.3c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 199.7305 46.7169)" style="fill:#FFFFFF; font-family:'OpenSans-Semibold'; font-size:12px;">Pick</text>
+</g>
+<g id="pack">
+	<g>
+		<path style="fill:#004B87;" d="M399.8,59c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6V28.3c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 334.2263 46.7169)" style="fill:#FFFFFF; font-family:'OpenSans-Semibold'; font-size:12px;">Pack</text>
+</g>
+<g id="picklist">
+	<g>
+		<text transform="matrix(1 0 0 1 189.3414 231.6076)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Pick List</text>
+	</g>
+	<g>
+		<g>
+			<path style="fill:#666666;" d="M227.5,178.3c0-0.1,0-0.2-0.1-0.3s-0.1-0.2-0.2-0.3c0,0,0,0,0,0l0,0l0,0l-4.7-4.7l0,0
+				c-0.1-0.1-0.2-0.2-0.3-0.2c-0.1-0.1-0.3-0.1-0.4-0.1h-28.4c-0.6,0-1,0.5-1,1v41.6c0,0.6,0.5,1,1,1h33c0.6,0,1-0.5,1-1
+				L227.5,178.3C227.5,178.4,227.5,178.4,227.5,178.3z"/>
+			<g>
+				<polygon style="fill:#FFFFFF;" points="225.6,214.4 194.3,214.4 194.3,174.5 220.6,174.5 220.6,179.4 225.6,179.4 				"/>
+			</g>
+		</g>
+		<path style="fill:#666666;" d="M221.4,198.2H200c-0.5,0-1-0.4-1-1s0.4-1,1-1h21.4c0.5,0,1,0.4,1,1S221.9,198.2,221.4,198.2z"/>
+		<path style="fill:#666666;" d="M221.4,203.6H200c-0.5,0-1-0.4-1-1s0.4-1,1-1h21.4c0.5,0,1,0.4,1,1S221.9,203.6,221.4,203.6z"/>
+		<path style="fill:#666666;" d="M221.4,187.3H200c-0.5,0-1-0.4-1-1s0.4-1,1-1h21.4c0.5,0,1,0.4,1,1S221.9,187.3,221.4,187.3z"/>
+		<path style="fill:#666666;" d="M208.5,181.5H200c-0.5,0-1-0.4-1-1s0.4-1,1-1h8.6c0.5,0,1,0.4,1,1S209.1,181.5,208.5,181.5z"/>
+		<path style="fill:#666666;" d="M221.4,192.7H200c-0.5,0-1-0.4-1-1s0.4-1,1-1h21.4c0.5,0,1,0.4,1,1S221.9,192.7,221.4,192.7z"/>
+		<path style="fill:#666666;" d="M221.4,208.7h-4.6c-0.5,0-1-0.4-1-1s0.4-1,1-1h4.6c0.5,0,1,0.4,1,1S221.9,208.7,221.4,208.7z"/>
+	</g>
+</g>
+<g id="invoiceprint">
+	<g>
+
+			<rect x="592.2" y="173.9" style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="31.8" height="40"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="607.8" y1="179.9" x2="619.1" y2="179.9"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="607.8" y1="184.3" x2="619.1" y2="184.3"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="598.5" y1="194.5" x2="619.1" y2="194.5"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="598.5" y1="199.7" x2="619.1" y2="199.7"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="598.5" y1="204.6" x2="619.1" y2="204.6"/>
+		<path style="fill:#666666;" d="M603.6,184.3c-0.3-0.4-0.7-0.7-1.2-1c-0.4-0.2-0.9-0.4-1.4-0.5c-0.2-0.1-0.4-0.1-0.7-0.2
+			c-0.4-0.1-0.7-0.2-1-0.3c-0.3-0.1-0.6-0.2-0.8-0.3c-0.3-0.2-0.5-0.5-0.5-0.9c0-0.4,0.2-0.8,0.5-1.1c0.2-0.2,0.5-0.3,0.8-0.3
+			c0.2-0.1,0.4-0.1,0.7-0.1c0.3,0,0.7,0.1,0.9,0.2c0.2,0.1,0.4,0.2,0.6,0.3c0.4,0.3,0.6,0.7,0.6,1.2h0c0,0.4,0.4,0.7,0.9,0.7
+			c0.5,0,0.8-0.3,0.9-0.7c0-0.9-0.3-1.7-1.1-2.2c-0.5-0.4-1.1-0.7-1.8-0.8v-0.6c0-0.4-0.4-0.8-0.8-0.8s-0.8,0.4-0.8,0.8v0.5
+			c-0.8,0.1-1.4,0.4-2,0.8c-0.7,0.6-1,1.3-1,2.1c0,0.5,0.1,0.9,0.4,1.3s0.6,0.7,1.1,0.9c0.4,0.2,0.9,0.4,1.5,0.5
+			c0.2,0,0.4,0.1,0.5,0.1c0.4,0.1,0.8,0.2,1.1,0.3c0.3,0.1,0.6,0.2,0.7,0.4c0.3,0.3,0.5,0.6,0.5,1.1c0,0.4-0.2,0.8-0.6,1.1
+			c-0.2,0.1-0.4,0.2-0.7,0.3c-0.3,0.1-0.5,0.1-0.9,0.1c-0.3,0-0.5,0-0.8-0.1c-0.4-0.1-0.7-0.2-1-0.4c-0.4-0.3-0.7-0.8-0.7-1.4
+			c0-0.4-0.4-0.7-0.9-0.7s-0.8,0.3-0.9,0.7c0,0.6,0.2,1.1,0.5,1.6c0.3,0.5,0.8,0.9,1.5,1.2c0.4,0.2,0.9,0.3,1.4,0.4v0.5
+			c0,0.4,0.4,0.8,0.8,0.8s0.8-0.4,0.8-0.8v-0.5c0.7-0.1,1.4-0.4,1.9-0.7c0.7-0.5,1.1-1.3,1.1-2.1C604,185.1,603.8,184.7,603.6,184.3
+			z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 591.8669 230.5906)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Invoice</text>
+	</g>
+</g>
+<g id="packlist">
+	<g>
+		<text transform="matrix(1 0 0 1 324.524 231.2361)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Pack List</text>
+	</g>
+	<g>
+		<g>
+			<path style="fill:#666666;" d="M364.2,178.5c0-0.1,0-0.2-0.1-0.3c0-0.1-0.1-0.2-0.2-0.3c0,0,0,0,0,0l0,0l0,0l-4.7-4.7l0,0
+				c-0.1-0.1-0.2-0.2-0.3-0.2c-0.1-0.1-0.3-0.1-0.4-0.1h-28.4c-0.6,0-1,0.5-1,1v41.6c0,0.6,0.5,1,1,1h33c0.6,0,1-0.5,1-1
+				L364.2,178.5C364.2,178.5,364.2,178.5,364.2,178.5z"/>
+			<g>
+				<polygon style="fill:#FFFFFF;" points="362.3,214.5 331,214.5 331,174.7 357.3,174.7 357.3,179.5 362.3,179.5 				"/>
+			</g>
+		</g>
+		<path style="fill:#666666;" d="M358,198.3h-21.4c-0.5,0-1-0.4-1-1s0.4-1,1-1H358c0.5,0,1,0.4,1,1S358.6,198.3,358,198.3z"/>
+		<path style="fill:#666666;" d="M358,203.7h-21.4c-0.5,0-1-0.4-1-1s0.4-1,1-1H358c0.5,0,1,0.4,1,1S358.6,203.7,358,203.7z"/>
+		<path style="fill:#666666;" d="M358,187.4h-21.4c-0.5,0-1-0.4-1-1s0.4-1,1-1H358c0.5,0,1,0.4,1,1S358.6,187.4,358,187.4z"/>
+		<path style="fill:#666666;" d="M345.2,181.6h-8.5c-0.5,0-1-0.4-1-1s0.4-1,1-1h8.5c0.5,0,1,0.4,1,1S345.8,181.6,345.2,181.6z"/>
+		<path style="fill:#666666;" d="M358,192.8h-21.4c-0.5,0-1-0.4-1-1s0.4-1,1-1H358c0.5,0,1,0.4,1,1S358.6,192.8,358,192.8z"/>
+		<path style="fill:#666666;" d="M358,208.8h-4.6c-0.5,0-1-0.4-1-1s0.4-1,1-1h4.6c0.5,0,1,0.4,1,1S358.6,208.8,358,208.8z"/>
+	</g>
+</g>
+<g id="shipper">
+	<g>
+		<g>
+			<path style="fill:#666666;" d="M492.8,176.2c0-0.1,0-0.2-0.1-0.3c0-0.1-0.1-0.2-0.2-0.2c0,0,0,0,0,0l0,0l0,0l-3.8-3.8l0,0
+				c-0.1-0.1-0.2-0.1-0.3-0.2c-0.1,0-0.2-0.1-0.3-0.1h-22.9c-0.5,0-0.8,0.4-0.8,0.8v33.6c0,0.5,0.4,0.8,0.8,0.8H492
+				c0.5,0,0.8-0.4,0.8-0.8L492.8,176.2C492.8,176.2,492.8,176.2,492.8,176.2z"/>
+			<g>
+				<polygon style="fill:#FFFFFF;" points="491.3,205.4 466,205.4 466,173.1 487.3,173.1 487.3,177 491.3,177.1 				"/>
+			</g>
+		</g>
+		<path style="fill:#666666;" d="M487.9,192.3h-17.3c-0.4,0-0.8-0.4-0.8-0.8s0.4-0.8,0.8-0.8h17.3c0.4,0,0.8,0.4,0.8,0.8
+			S488.3,192.3,487.9,192.3z"/>
+		<path style="fill:#666666;" d="M487.9,183.4h-17.3c-0.4,0-0.8-0.4-0.8-0.8s0.4-0.8,0.8-0.8h17.3c0.4,0,0.8,0.4,0.8,0.8
+			C488.6,183.1,488.3,183.4,487.9,183.4z"/>
+		<path style="fill:#666666;" d="M477.5,178.8h-6.9c-0.4,0-0.8-0.4-0.8-0.8s0.4-0.8,0.8-0.8h6.9c0.4,0,0.8,0.4,0.8,0.8
+			C478.3,178.4,477.9,178.8,477.5,178.8z"/>
+		<path style="fill:#666666;" d="M487.9,187.8h-17.3c-0.4,0-0.8-0.4-0.8-0.8s0.4-0.8,0.8-0.8h17.3c0.4,0,0.8,0.4,0.8,0.8
+			C488.6,187.5,488.3,187.8,487.9,187.8z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 460.5153 230.7183)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Shipper/</text>
+		<text transform="matrix(1 0 0 1 465.8752 242.7183)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Track/</text>
+		<text transform="matrix(1 0 0 1 465.6153 254.7183)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Labels</text>
+	</g>
+	<g>
+		<path style="fill:#666666;" d="M504.5,215.2h-26.7c-0.3,0-0.6-0.2-0.6-0.6v-18.5c0-0.3,0.2-0.6,0.6-0.6h26.7
+			c0.3,0,0.6,0.2,0.6,0.6v18.4C505,214.9,504.8,215.2,504.5,215.2z M478.3,214.1h25.6v-17.3h-25.6V214.1z"/>
+		<g>
+			<rect x="478.3" y="196.8" style="fill:#FFFFFF;" width="25.6" height="17.3"/>
+		</g>
+		<rect x="480.8" y="198.3" style="fill:#666666;" width="1.1" height="14.4"/>
+		<rect x="485.6" y="198.3" style="fill:#666666;" width="1.1" height="14.4"/>
+		<rect x="482.6" y="198.3" style="fill:#666666;" width="2.1" height="14.4"/>
+		<rect x="492" y="198.3" style="fill:#666666;" width="1.1" height="14.4"/>
+		<rect x="493.9" y="198.3" style="fill:#666666;" width="1.1" height="14.4"/>
+		<rect x="497.7" y="198.3" style="fill:#666666;" width="1.1" height="14.4"/>
+		<rect x="488.9" y="198.3" style="fill:#666666;" width="2.2" height="14.4"/>
+		<rect x="499.7" y="198.3" style="fill:#666666;" width="2" height="14.4"/>
+	</g>
+</g>
+<g id="so">
+	<text transform="matrix(1 0 0 1 41.9507 231.2844)" style="fill:#666666; font-family:'OpenSans-Semibold'; font-size:10px;">Sales Order</text>
+	<g>
+
+			<rect x="54.1" y="174.6" style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="31.8" height="40"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="69.8" y1="180.6" x2="81" y2="180.6"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="69.8" y1="185" x2="81" y2="185"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="60.4" y1="195.1" x2="81" y2="195.1"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="60.4" y1="200.4" x2="81" y2="200.4"/>
+
+			<line style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="60.4" y1="205.3" x2="81" y2="205.3"/>
+	</g>
+	<path style="fill:#666666;" d="M60.8,184.6c0.1-0.1,0.2-0.2,0.3-0.3c1.6-1.6,3.2-3.2,4.8-4.9c0.3-0.3,0.7-0.5,1.1-0.3
+		c0.7,0.2,1,1.1,0.5,1.7c0,0.1-0.1,0.1-0.1,0.1c-1.9,1.9-3.8,3.9-5.8,5.8c-0.6,0.6-1.1,0.6-1.7,0c-0.9-0.9-1.8-1.8-2.6-2.6
+		c-0.3-0.3-0.4-0.8-0.2-1.2c0.2-0.4,0.6-0.6,1-0.6c0.3,0,0.5,0.2,0.7,0.4c0.6,0.6,1.2,1.2,1.8,1.8C60.7,184.5,60.7,184.5,60.8,184.6
+		z"/>
+</g>
+<g id="ship">
+	<g>
+		<path style="fill:#004B87;" d="M532.4,59c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6V28.3c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 467.8602 46.7169)" style="fill:#FFFFFF; font-family:'OpenSans-Semibold'; font-size:12px;">Ship</text>
+</g>
+<a id="invoice" class="kwfade" xlink:href="https://www.intacct.com/ia/docs/en_US/help_action/Accounts_Receivable/Invoices/Tasks/create-invoice.htm" target="_blank">
+	<g>
+		<g>
+			<path style="fill:#004B87;" d="M660,59c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6V28.3c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 587.3766 46.7169)" style="fill:#FFFFFF; font-family:'OpenSans-Semibold'; font-size:12px;">Invoice</text>
+		<g>
+			<g>
+				<g>
+					<path style="fill:#FFB500;" d="M657,55.5c0,0.8-0.2,1.2-0.5,1.5c-0.6,0.6-1.1,1.1-1.7,1.7c-0.7,0.7-1.8,0.7-2.5,0.1
+						c-0.3-0.2-0.3-0.5-0.1-0.8c0.2-0.2,0.5-0.2,0.8,0c0.4,0.3,0.8,0.3,1.1-0.1c0.5-0.5,1-1,1.6-1.6c0.2-0.2,0.3-0.5,0.2-0.9
+						c-0.2-0.5-0.8-0.7-1.3-0.3c-0.3,0.3-0.6,0.6-0.9,0.9c-0.1,0.1-0.2,0.1-0.3,0.1c-0.2-0.1-0.5-0.1-0.7-0.1c-0.1,0-0.2,0-0.2-0.1
+						c0,0,0-0.1,0.1-0.2c0.5-0.5,0.9-1,1.4-1.4c0.6-0.5,1.3-0.6,2-0.3C656.6,54.4,656.9,55,657,55.5z"/>
+				</g>
+				<g>
+					<path style="fill:#FFB500;" d="M650.9,61.8c-0.8,0-1.4-0.4-1.7-1.1s-0.2-1.4,0.3-2c0.6-0.6,1.2-1.2,1.8-1.8
+						c0.7-0.7,1.8-0.7,2.5,0c0.3,0.2,0.3,0.6,0.1,0.8c-0.2,0.2-0.5,0.2-0.8,0c-0.4-0.3-0.8-0.3-1.1,0.1c-0.5,0.5-1.1,1.1-1.7,1.7
+						c-0.3,0.3-0.3,0.7-0.1,1c0.2,0.3,0.6,0.4,0.9,0.3c0.1,0,0.3-0.2,0.4-0.2c0.3-0.3,0.6-0.6,0.8-0.8c0.1-0.1,0.2-0.1,0.3-0.1
+						c0.2,0.1,0.5,0.1,0.7,0.1c0.1,0,0.1,0,0.2,0.1c0,0,0,0.1,0,0.2c-0.5,0.5-1,1-1.5,1.5C651.7,61.7,651.3,61.8,650.9,61.8z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</a>
+
+<script type="text/javascript">
+	window.addEventListener("load", function() {
+		svgPanZoom('#SVG-testing', {
+			zoomEnabled: true,
+			controlIconsEnabled: false
+		});
+	},false);
+</script>
+
+</svg>
