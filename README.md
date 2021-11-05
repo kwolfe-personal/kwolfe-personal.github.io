@@ -13,6 +13,9 @@
   <li>
   <a href="http://kwolfe-personal.github.io/demo/svgAsImg.html" target="_blank" >No interactivity as IMG</a>
   </li>  
+  <li>
+  <a href="http://kwolfe-personal.github.io/demo/newtest.html" target="_blank" >Embedded Script Test</a>
+  </li>    
 </ul>
 <h2>Animation</h2>
 <ul>
