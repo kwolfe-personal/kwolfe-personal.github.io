@@ -8,5 +8,13 @@
 	</br>
 	</br>	  
     <object id="SVG-testing" type="image/svg+xml" data="SVGTest2.svg" style="width: 700px; height: 100%; border:1px solid black; "></object>
-  </body>
+  	<script type="text/javascript" defer="defer">
+	window.addEventListener("load", function() {
+		svgPanZoom('#SVG-testing', {
+			zoomEnabled: true,
+			controlIconsEnabled: false
+		});
+	},false);	
+	</script>
+</body>
 </html>
