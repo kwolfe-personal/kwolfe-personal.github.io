@@ -7,20 +7,15 @@
     <h1>Demo for SVG with pan/zoom mouse controls only - As Object</h1>
 	</br>
 	</br>	  
-    <object id="demo-hello" type="image/svg+xml" data="PanZoom.svg" style="width: 700px; height: 100%; border:1px solid black; ">Your browser does not support SVG</object>
+    <object id="SVG_1" type="image/svg+xml" data="PanZoom.svg" style="width: 700px; height: 100%; border:1px solid black; ">Your browser does not support SVG</object>
 
 	<script type="text/javascript">
 		window.addEventListener("load", function() {
-			svgPanZoom('#demo-hello', {
+			svgPanZoom('#SVG_1', {
 			zoomEnabled: true,
 			controlIconsEnabled: false
 			});
 		},false);
-    		window.addEventListener("resize", function(){
-               		svgPanZoom('#demo-hello').resize();
-               		svgPanZoom('#demo-hello').fit();
-               		svgPanZoom('#demo-hello').center();
-    		},false);
 	</script>
 
   </body>
