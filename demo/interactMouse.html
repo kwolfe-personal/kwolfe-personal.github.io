@@ -16,6 +16,11 @@
 			controlIconsEnabled: false
 			});
 		},false);
+    		window.addEventListener("resize", function(){
+               		svgPanZoom('#demo-hello').resize();
+               		svgPanZoom('#demo-hello').fit();
+               		svgPanZoom('#demo-hello').center();
+    		},false);
 	</script>
 
   </body>
