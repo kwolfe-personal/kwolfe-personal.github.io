@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-      		<script src="..\myscripts\svg-pan-zoom.js"></script>
-		<script src="..\myscripts\control-icons.js"></script>
-		<script src="..\myscripts\shadow-viewport.js"></script>
-		<script src="..\myscripts\svg-utilities.js"></script>
-		<script src="..\myscripts\uniwheel.js"></script>
-		<script src="..\myscripts\utilities.js"></script>
-		
-  	</head>
-  <body>
-    <h1>Demo for SVG with pan/zoom controls - As Object</h1>
-	</br>
-	</br>
-    <object id="demo-hello" type="image/svg+xml" data="PanZoom.svg" style="width: 700px; height: 100%; border:1px solid black; ">Your browser does not support SVG</object>
+<html>
 
-	<script type="text/javascript">
-	      window.onload = function() {
-		svgPanZoom('#demo-hello', {
-		  zoomEnabled: true,
-		  controlIconsEnabled: true
-		});
-	      };
-	</script>
-	  
-   </body>
+  <head>
+    <script src="myscripts/svg-pan-zoom.js"></script>
+  </head>
+
+  <body>
+    <h1>Demo for svg-pan-zoom: SVG in HTML 'object' element</h1>
+    <object id="demo-hello" type="image/svg+xml" data="PanZoom.svg" style="width: 500px; height: 500px; border:1px solid black; ">Your browser does not support SVG</object>
+
+    <script>
+      window.onload = function() {
+        svgPanZoom('#demo-hello', {
+          zoomEnabled: true,
+          controlIconsEnabled: true
+        });
+      };
+    </script>
+
+  </body>
+
 </html>
