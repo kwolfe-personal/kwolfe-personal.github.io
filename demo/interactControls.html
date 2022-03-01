@@ -10,13 +10,9 @@
     <object id="demo-hello" type="image/svg+xml" data="PanZoom.svg" style="width: 700px; height: 100%; border:1px solid black; ">Your browser does not support SVG</object>
 
 	<script type="text/javascript">
-	  window.addEventListener("load", function() {
-		  svgPanZoom('#demo-hello', {
-		  zoomEnabled: true,
-		  controlIconsEnabled: true,
-		  mouseWheelZoomEnabled: false
-		  });
-	  },false);
+	document.getElementById('demo-hello').addEventListener('load', function(){
+  	svgPanZoom(document.getElementById('demo-hello'));
+	})
 	</script>
 	  
    </body>
