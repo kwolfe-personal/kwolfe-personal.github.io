@@ -13,32 +13,33 @@
       <button id="zoom-out">-</button>
       <button id="reset">Reset</button>
     </div>
-    	<script type="text/javascript">
-	      window.onload = function() {
-		var panZoom = svgPanZoom('#demo-hello', {
-		  zoomEnabled: true,
-		  controlIconsEnabled: false
-		});
+    <script>
+      // Don't use window.onLoad like this in production, because it can only listen to one function.
+      window.onload = function() {
+        var panZoom = svgPanZoom('#demo-hello', {
+          zoomEnabled: true,
+          controlIconsEnabled: false
+        });
 
-		document.getElementById('zoom-in').addEventListener('click', function(ev){
-		  ev.preventDefault()
+        document.getElementById('zoom-in').addEventListener('click', function(ev){
+          ev.preventDefault()
 
-		  panZoom.zoomIn()
-		});
+          panZoom.zoomIn()
+        });
 
-		document.getElementById('zoom-out').addEventListener('click', function(ev){
-		  ev.preventDefault()
+        document.getElementById('zoom-out').addEventListener('click', function(ev){
+          ev.preventDefault()
 
-		  panZoom.zoomOut()
-		});
+          panZoom.zoomOut()
+        });
 
-		document.getElementById('reset').addEventListener('click', function(ev){
-		  ev.preventDefault()
+        document.getElementById('reset').addEventListener('click', function(ev){
+          ev.preventDefault()
 
-		  panZoom.resetZoom()
-		});
-	      };
-      	</script>	      
+          panZoom.resetZoom()
+        });
+      };
+    </script>	      
 		      
 
   </body>
