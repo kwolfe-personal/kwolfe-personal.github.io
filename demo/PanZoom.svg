@@ -316,7 +316,7 @@
 	</g>
 	<text transform="matrix(1 0 0 1 467.8602 46.7169)" class="st6 st3 st4">Ship</text>
 </g>
-<a id="invoice" class="kwfade" xlink:href="https://www.intacct.com/ia/docs/en_US/help_action/Accounts_Receivable/Invoices/Tasks/create-invoice.htm" >
+<a id="invoice" class="kwfade" xlink:href="https://www.intacct.com/ia/docs/en_US/help_action/Accounts_Receivable/Invoices/Tasks/create-invoice.htm" target="_blank">
 	<g>
 		<g>
 			<path class="st5" d="M659.99,59.04c0,3.3-2.7,6-6,6h-92c-3.3,0-6-2.7-6-6v-30.7c0-3.3,2.7-6,6-6h92c3.3,0,6,2.7,6,6V59.04z"/>
