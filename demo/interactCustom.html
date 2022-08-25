@@ -17,8 +17,9 @@
 	      window.onload = function() {
 		var panZoom = svgPanZoom('#demo-hello', {
 		  zoomEnabled: true,
-		  controlIconsEnabled: true
+		  controlIconsEnabled: false
 		});
+
 		document.getElementById('zoom-in').addEventListener('click', function(ev){
 		  ev.preventDefault()
 
@@ -37,11 +38,8 @@
 		  panZoom.resetZoom()
 		});
 	      };
-		
-		
-		
-		
-	</script>
+      	</script>	      
+		      
 
   </body>
 </html>
